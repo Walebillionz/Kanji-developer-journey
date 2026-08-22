@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Progress Analyst</title>
+  </head>
+  <body>
+    <nav>
+      <h3 class="header">
+        <span>KAN</span><span class="purp">JI</span>
+      </h3>
+
+      <ul>
+        <li><a href="#" id="active">Home</a></li>
+        <li><a href="#">Journey</a></li>
+        <li><a href="#">Goals</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+
+      <button>Follow Progres</button>
+    </nav>
+    <div class="hero">
+      <div class="herowrite">
+        <h2>My journey to becoming a <span style="color:#A855F7;">developer.</span></h2>
+        <p>Learning today. Building tomorrow. <br>Creating the future.</p>
+        <button>Start Journey</button>
+      </div>
+      <img src="IMG_0828.jpeg">
+    </div>
+
+    <div class="about">
+      <div class="bouthead">
+        <i class="fa-solid fa-user" style="color:#A855F7;"></i>
+        <h3>About Me</h3>
+      </div>
+      <div class="boutdy">
+        <div class="boutwrite">
+          <p>I'm Kanji, a self-taught developer on a mission to bild intelligent solutions and create my own AI assistant - Jarvis<br> <br> I love learning, building, and turning ideas into reality through code.</p>
+        </div>
+        <div class="vr"></div>
+        <div class="boutinfo">
+          <ul>
+            <li><a href="#"><i class="fa-solid fa-calendar-days"></i> Born: 17 May 2008</a></li>
+            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Location: Nigeria</a></li>
+            <li><a href="#"><i class="fa-solid fa-bullseye"></i>Focus: Web Dev, AI, Systems</a></li>
+            <li><a href="#"><i class="fa-solid fa-heart"></i>Motto: Discipline today, freedom tomorrow</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="journey">
+      <div class="j-header">
+        <i class="fa-solid fa-arrow-trend-up"></i>
+        <h3>My Journey</h3>
+      </div>
+
+      <div class="roadmap">
+        <div class="linev"></div>
+
+        <div class="node completed">
+          <div class="circle">
+            <i class="fa-solid fa-check"></i>
+          </div>
+          <div class="label-title">HTML & CSS</div>
+          <div class="label-status">Completed</div>
+        </div>
+        <div class="node nactive">
+          <div class="circle">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <div class="label-title">JavaScript</div>
+          <diiv class="label-status">Learning</diiv>
+        </div>
+        <div class="node upcoming">
+          <div class="circle">
+            <i class="fa-solid fa-lock"></i>
+          </div>
+          <div class="label-title">React</div>
+          <diiv class="label-status">Upcoming</diiv>
+        </div>
+        <div class="node upcoming">
+          <div class="circle">
+            <i class="fa-solid fa-lock"></i>
+          </div>
+          <div class="label-title">Node.js</div>
+          <diiv class="label-status">Upcoming</diiv>
+        </div>
+        <div class="node upcoming">
+          <div class="circle">
+            <i class="fa-solid fa-lock"></i>
+          </div>
+          <div class="label-title">Python</div>
+          <diiv class="label-status">Upcoming</diiv>
+        </div>
+        <div class="node future">
+          <div class="circle">
+            <i class="fa-solid fa-lock"></i>
+          </div>
+          <div class="label-title">AI/ML</div>
+          <diiv class="label-status">Future</diiv>
+        </div>
+
+        <div class="node ultimate">
+          <div class="circle">
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="label-title">JARVIS</div>
+          <diiv class="label-status">Ultimate Goal</diiv>
+        </div>
+   
+      </div>
+    </div>
+    <div class="reason">
+      <div class="reason-header">
+        <i class="fa-solid fa-rocket"></i>
+        <h3>Why I'm doing this</h3>
+      </div>
+      <div class="reasonpass">
+        <div class="inner">
+          <i class="fa-solid fa-brain"></i>
+          <div class="reawrite">
+            <h6>Passion</h6>
+            <p>I enjoy solving problems and building things that matter.</p>
+          </div>
+        </div>
+      
+
+       
+        <div class="inner">
+         <i class="fa-solid fa-bullseye"></i>
+          <div class="reawrite">
+            <h6>Purpose</h6>
+            <p>To create my own AI assistant that can help me and others.</p>
+          </div>
+        </div>
+
+        <div class="inner">
+          <i class="fa-solid fa-bolt"></i>
+          <div class="reawrite">
+            <h6>Impact</h6>
+            <p>To use technology to make life easier and more meaningful</p>
+          </div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="Ultimate">
+      <div class="ulti-head">
+        <i class="fa-solid fa-star"></i>
+        <h3>Ultimate Goal</h3>
+      </div>
+
+      <div class="ulti-body">
+        <img src="IMG_0834.jpeg">
+        <div class="jarvwrite">
+          <h2>JARVIS</h2>
+          <p>A personal AI assistant that can understand, learn, remember,see speak, and help me accomplish anything,</p>
+          <div class="butt">
+            One day, Jarvis will be real.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
